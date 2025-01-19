@@ -1,6 +1,6 @@
 import random
 import streamlit as st
-number1=random.randint(1,100)
+number1=random.randint(1,10)
 number3=number1
 number=str(number3)
 st.title("Welcome To The Number Guessing Game!")
