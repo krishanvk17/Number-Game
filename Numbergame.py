@@ -10,4 +10,8 @@ if st.button("Guess"):
 		st.success("You Guessed right!")
 	else:
 		st.info("You Guessed wrong! delete number and try again!")
+		if userinput<number1:
+			st.info("The number is higher than yours")
+		else:
+			st.info("The number is lower than yours")
 
